@@ -1,0 +1,170 @@
+    @media (max-width: 600px) {
+        .container_Summary {
+            flex-direction: column;
+        }
+    }
+    
+    .Summary {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        p {
+            font-size: 18px;
+        }
+        .container_Summary {
+            display: flex;
+            border-radius: 25px;
+            padding: 0;
+            background-color: $background-color_2;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        }
+        .container-left {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            text-align: center;
+            border-radius: 25px;
+            width: 380px;
+            background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%) 80%);
+        }
+        .title {
+            font-size: 22px;
+            font-weight: 700;
+        }
+        .title-left {
+            margin: 37px auto;
+            color: $color_1;
+        }
+        .circle {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: -3px;
+            height: 200px;
+            width: 200px;
+            border-radius: 100%;
+            background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+        }
+        .circle-score {
+            margin-bottom: -6px;
+            font-size: 70px;
+            font-weight: 800;
+            color: $color_2;
+        }
+        .circle-out-of {
+            font-weight: 500;
+            color: $color_3;
+        }
+        .container-left-bottom {
+            margin: auto 50px;
+        }
+        .container-left-bottom-compliment {
+            margin-bottom: -6px;
+            font-weight: 700;
+            font-size: 32px;
+            color: $color_2;
+        }
+        .container-left-bottom-description {
+            color: $color_4;
+        }
+        .container-right-box {
+            display: flex;
+            justify-content: center;
+        }
+        .container-right {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            margin: 0 auto;
+            height: 512px;
+        }
+        .title-right {
+            text-align: left;
+            margin-top: -3px;
+            margin-bottom: 23px;
+            width: 288px;
+            color: $color_5;
+        }
+        .stat-box {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            margin-top: -50px;
+        }
+        .stat {
+            font-size: 18px;
+            font-weight: 500;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            gap: 70px;
+            margin: 5px 40px;
+            width: 288px;
+            height: 55px;
+            border-radius: 10px;
+        }
+        .stat-part-left {
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+        }
+        .stat-part-right {
+            font-weight: 700;
+            color: $color_6;
+        }
+        .stat-reaction {
+            background-color: $background-color_3;
+        }
+        .stat-verbal {
+            background-color: $background-color_4;
+        }
+        .stat-visual {
+            background-color: $background-color_5;
+        }
+        .stat-memory {
+            background-color: $background-color_6;
+        }
+        .red {
+            color: $color_7;
+        }
+        .blue {
+            color: $color_5;
+        }
+        .yellow {
+            color: $color_8;
+        }
+        .purple {
+            color: $color_9;
+        }
+        .green {
+            color: $color_10;
+        }
+        .btn {
+            font-size: 18px;
+            font-weight: 500;
+            margin-top: -24px;
+            border: none;
+            width: 288px;
+            height: 45px;
+            border-radius: 30px;
+            color: $color_2;
+            background-color: $background-color_7;
+            &:hover {
+                color: $color_2;
+                background: hsl(252, 100%, 67%);
+                cursor: pointer;
+            }
+        }
+    }
+    
+    @media screen and (max-width: 598px) {
+        .Summary .container-left {
+            margin-top: 48%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }

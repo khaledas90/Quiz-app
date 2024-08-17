@@ -1,0 +1,143 @@
+.App {
+  background-color: #c1f0f3;
+}
+.App .brand {
+  font-size: 25px;
+  font-weight: 600;
+  color: #000;
+}
+.App .brand span {
+  color: #095ede;
+}
+.App .nav-link {
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.5s;
+}
+.App .nav-link:hover {
+  color: #095ede;
+}
+.App .nav-link a {
+  text-decoration: none;
+  color: #000;
+  transition: all 0.5s;
+}
+.App .nav-link a:hover {
+  color: #095ede;
+}
+.App .btnHeader {
+  background-color: #222;
+  border-radius: 4px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Farfetch Basis", "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0 5px;
+  max-width: none;
+  min-height: 44px;
+  min-width: 10px;
+  outline: none;
+  overflow: hidden;
+  padding: 9px 20px 8px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+}
+.App .btnHeader :hover {
+  opacity: 0.75;
+}
+
+.Home {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 132px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Home h1 {
+  font-size: 64px;
+  font-family: "Concert One", sans-serif;
+  font-weight: 600;
+  color: #000;
+  color: #095ede;
+}
+.Home p {
+  background: #0a58ca;
+  padding: 35px 32px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+}
+.Home .button-86 {
+  all: unset;
+  width: 100px;
+  height: 30px;
+  font-size: 16px;
+  background: transparent;
+  border: none;
+  position: relative;
+  color: #f0f0f0;
+  cursor: pointer;
+  z-index: 1;
+  padding: 10px 47px;
+  margin-left: 15px;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.Home .button-86::after, .Home .button-86::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -99999;
+  transition: all 0.4s;
+}
+.Home .button-86::before {
+  transform: translate(0%, 0%);
+  width: 100%;
+  height: 100%;
+  background: #28282d;
+  border-radius: 10px;
+}
+.Home .button-86::after {
+  transform: translate(10px, 10px);
+  width: 35px;
+  height: 35px;
+  background: #ffffff15;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 50px;
+}
+.Home .button-86:hover::before {
+  transform: translate(5%, 20%);
+  width: 110%;
+  height: 110%;
+}
+.Home .button-86:hover::after {
+  border-radius: 10px;
+  transform: translate(0, 0);
+  width: 100%;
+  height: 100%;
+}
+.Home .button-86:active::after {
+  transition: 0s;
+  transform: translate(0, 5%);
+}

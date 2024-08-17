@@ -1,0 +1,23 @@
+@import'./variable.scss';
+@import './component/home.scss';
+@import'./component/Instructions.scss';
+@import './component/notFound.scss';
+@import './component/play.scss';
+@import './component/loader.scss';
+@import './component/quiz.scss';
+@import './component/summary.scss';
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.swal2-cancel {
+    margin-right: 20px;
+}
+
+.disabled {
+    pointer-events: none !important;
+    background-color: #ccc !important;
+}

@@ -1,0 +1,91 @@
+// Define your color variables
+$firstColor: #ff0000; // Replace with your desired color
+$listColors: (#ff0000, #00ff00, #0000ff); // Replace with your list of colors
+$delayCoeff: 0.1s; // Adjust delay coefficient as needed
+.svg {
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    line-height: 300px;
+    text-align: center;
+    background-color: #FFF;
+    border-radius: 50%;
+}
+
+#svg {
+    display: inline-block;
+    vertical-align: middle;
+    fill: $firstColor;
+    // Apply animation to each path using nth-of-type
+    @for $i from 1 through 58 {
+        path:nth-of-type(#{$i}) {
+            -webkit-animation: pweek 5s linear infinite;
+            animation: pweek 5s linear infinite;
+            -webkit-animation-delay: $i * $delayCoeff;
+            animation-delay: $i * $delayCoeff;
+            &:hover {
+                -webkit-animation-play-state: paused;
+                /* Chrome, Safari, Opera */
+                animation-play-state: paused;
+            }
+        }
+    }
+}
+
+// Define your color variables
+$firstColor: #ff0000; // Replace with your desired color
+$listColors: (#ff0000, #00ff00, #0000ff); // Replace with your list of colors
+$delayCoeff: 0.1s; // Adjust delay coefficient as needed
+// Mixin to generate keyframes
+@mixin keyframes-pweek($colors) {
+    @for $i from 1 through length($colors) {
+        $percent: $i * (100 / length($colors));
+        #{$percent}% {
+            fill: nth($colors, $i);
+        }
+    }
+}
+
+.svg {
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    line-height: 300px;
+    text-align: center;
+    background-color: #FFF;
+    border-radius: 50%;
+}
+
+#svg {
+    display: inline-block;
+    vertical-align: middle;
+    fill: $firstColor;
+    // Apply animation to each path using nth-of-type
+    @for $i from 1 through 58 {
+        path:nth-of-type(#{$i}) {
+            -webkit-animation: pweek 5s linear infinite;
+            animation: pweek 5s linear infinite;
+            -webkit-animation-delay: $i * $delayCoeff;
+            animation-delay: $i * $delayCoeff;
+            &:hover {
+                -webkit-animation-play-state: paused;
+                /* Chrome, Safari, Opera */
+                animation-play-state: paused;
+            }
+        }
+    }
+}
+
+@-webkit-keyframes pweek {
+    0% {
+        fill: $firstColor;
+    }
+    @include keyframes-pweek($listColors);
+}
+
+@keyframes pweek {
+    0% {
+        fill: $firstColor;
+    }
+    @include keyframes-pweek($listColors);
+}

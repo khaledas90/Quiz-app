@@ -1,0 +1,98 @@
+                                .play {
+                                    background-color: #ffffff;
+                                    width: 100%;
+                                    height: 100%;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    margin-top: 7%;
+                                    .questions {
+                                        background-color: #eee;
+                                        border-left: 5px solid rgb(9, 94, 222);
+                                        ;
+                                        margin: 20px 50px;
+                                    }
+                                    .lifeline-container {
+                                        color: rgb(0, 0, 0);
+                                        font-size: 18px;
+                                        font-weight: 700;
+                                        svg {
+                                            color: rgb(9, 94, 222);
+                                            cursor: pointer;
+                                        }
+                                    }
+                                    .overall-container {
+                                        color: rgb(0, 0, 0);
+                                        font-size: 18px;
+                                        font-weight: 700;
+                                        svg {
+                                            color: rgb(9, 94, 222);
+                                            cursor: pointer;
+                                            margin-left: 10px;
+                                        }
+                                    }
+                                    .option-container {
+                                        .option {
+                                            background-color: rgb(9, 94, 222);
+                                            color: #fff;
+                                            font-size: 18px;
+                                            font-weight: 700;
+                                            border-radius: 5px;
+                                            padding: 10px 20px;
+                                            margin: 10px 0;
+                                            cursor: pointer;
+                                            transition: all 0.5s;
+                                            &:hover {
+                                                background-color: #000;
+                                            }
+                                        }
+                                    }
+                                    .button-container {
+                                        button {
+                                            align-items: center;
+                                            background-clip: padding-box;
+                                            background-color: rgb(9, 94, 222);
+                                            ;
+                                            border: 1px solid transparent;
+                                            border-radius: .25rem;
+                                            box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+                                            box-sizing: border-box;
+                                            color: #fff;
+                                            cursor: pointer;
+                                            display: inline-flex;
+                                            font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+                                            font-size: 16px;
+                                            font-weight: 600;
+                                            justify-content: center;
+                                            line-height: 1.25;
+                                            margin: 0 10px;
+                                            min-height: 3rem;
+                                            padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+                                            position: relative;
+                                            text-decoration: none;
+                                            transition: all 250ms;
+                                            user-select: none;
+                                            -webkit-user-select: none;
+                                            touch-action: manipulation;
+                                            vertical-align: baseline;
+                                            width: auto;
+                                            a {
+                                                text-decoration: none;
+                                                color: #fff;
+                                            }
+                                            &:hover,
+                                            &:focus {
+                                                background-color: rgb(12, 106, 247);
+                                                ;
+                                                transform: translateY(-1px);
+                                                box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+                                            }
+                                        }
+                                        .next {
+                                            background-color: rgb(73, 234, 44);
+                                        }
+                                        .quit {
+                                            background-color: rgb(255, 0, 0);
+                                        }
+                                    }
+                                }

@@ -1,0 +1,76 @@
+[{
+        "question": "What temperature does water boil at?",
+        "options": ["50 degrees Celsius", "25 degrees Celsius", "100 degrees Celsius", "150 degrees Celsius"],
+        "answer": "100 degrees Celsius"
+    },
+    {
+        "question": "Who wrote Julius Caesar, Macbeth and Hamlet?",
+        "options": ["Wole Soyinka", "William Shakespeare", "Ngozi Chimamanda Adichie", "Dan Brown"],
+        "answer": "William Shakespeare"
+    },
+    {
+        "question": "What did the crocodile swallow in Peter Pan?",
+        "options": ["A Book", "A Computer", "A pair of shoes", "Alarm Clock"],
+        "answer": "Alarm Clock"
+    },
+    {
+        "question": "Which is the only mammal that can’t jump?",
+        "options": ["Dog", "Elephant", "Goat", "Lion"],
+        "answer": "Elephant"
+    },
+    {
+        "question": "Who lived at 221B, Baker Street, London?",
+        "options": ["Tony Stark", "Morgan Freeman", "Sherlock Holmes", "Samuel L. Jackson"],
+        "answer": "Sherlock Holmes"
+    },
+    {
+        "question": "What colour is a panda?",
+        "options": ["Green and Yellow", "Blue and Red", "Green and White", "Black and White"],
+        "answer": "Black and White"
+    },
+    {
+        "question": "Where is the smallest bone in the human body?",
+        "options": ["The Chest", "The Ear", "The Legs", "The Hands"],
+        "answer": "The Ear"
+    },
+    {
+        "question": "What does the roman numeral C represent?",
+        "options": ["100", "10", "10,000", "1,000,000"],
+        "answer": "100"
+    },
+    {
+        "question": "What takes place in Hong Kong's Happy Valley?",
+        "options": ["Chicken Wrestling", "Horse racing", "Street Racing", "Arm Wrestling"],
+        "answer": "Horse racing"
+    },
+    {
+        "question": "Who painted the Mona Lisa?",
+        "options": ["Alexander Graham Bell", "Sir Isaac Newton", "Leonardo Da Vinci", "Albert Einstein"],
+        "answer": "Leonardo Da Vinci"
+    },
+    {
+        "question": "What’s the most important book in the Moslem religion?",
+        "options": ["The Koran", "The Dictionary", "The Bible", "The Chemistry text Book"],
+        "answer": "The Koran"
+    },
+    {
+        "question": "What’s the capital of Ethiopia?",
+        "options": ["Cape Town", "San Francisco", "Abuja", "Addis Ababa"],
+        "answer": "Addis Ababa"
+    },
+    {
+        "question": "How many squares are there on a chess board?",
+        "options": ["128", "64", "32", "256"],
+        "answer": "64"
+    },
+    {
+        "question": "Who invented the electric light bulb?",
+        "options": ["Tom Cruise", "Barack Obama", "Wole Soyinka", "Thomas Edison"],
+        "answer": "Thomas Edison"
+    },
+    {
+        "question": "What are the first three words of the bible?",
+        "options": ["be with everyone", "Again Jesus asked", "In the beginning", "At that time"],
+        "answer": "In the beginning"
+    }
+]
